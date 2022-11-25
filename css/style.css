@@ -1,0 +1,61 @@
+/* selector: etiqueta html, class, id */
+/* propiedad:valor  color:red */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&family=Roboto:ital@0;1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* estilos de texto */
+p{
+    font-family:'Poppins', sans-serif;
+    font-style: normal;
+    font-weight:bold;
+    font-size: 25px;
+    text-align: center;
+    line-height: 40px;
+    letter-spacing: 5px;
+    word-spacing: 7px;
+    text-transform: uppercase;
+    color: rgba(124, 57, 232, 0.644);
+    
+}
+
+.segundo-parrafo{
+    font-family:'Poppins', sans-serif;
+    font-style: italic;
+    color:cornflowerblue;
+    text-align: center;
+    line-height: 35px;
+    letter-spacing: 5px;
+}
+#color{
+    color:aqua;
+}
+
+h1{
+    text-align: end;
+    background-color: burlywood;
+}
+
+ul {
+    list-style-type: none;
+} 
+
+p span{
+    text-transform: lowercase;
+    color:red;
+}
+
+section{
+    background-color: burlywood;
+}
+
+h2{
+    font-family:'Poppins', sans-serif;
+    color:red;
+}
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:orangered;
+}
